@@ -45,9 +45,3 @@ jobs:
         uses: actions/deploy-pages@v1
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.5.1
-      - name: Header Check
-      # You may pin to the exact commit or the version.
-      # uses: chris-hinds/header-check-action@7d7e1a386ea3456fb0ef1a576a381349f7495527
-        uses: chris-hinds/header-check-action@v1.4
-        with:
-          Content-Encoding: br
